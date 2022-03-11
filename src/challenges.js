@@ -9,14 +9,19 @@ function calcArea(base, height) {
 }
 
 // Desafio 3
+// Referência de pesquisa:
+// https://www.devmedia.com.br/javascript-split-dividindo-separando-strings/39254#:~:text=O%20m%C3%A9todo%20split()%20divide,das%20substrings%20resultantes%20no%20array.
 function splitSentence(frase) {
   return frase.split(' ');
 }
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(array1) {
+  let firstElement = array1[0];
+  let lastElement = array1[array1.length - 1];
+  console.log(firstElement, ',', lastElement);
 }
+concatName(['Lucas', 'Cassiano', 'Ferraz', 'Paolillo']);
 
 // Desafio 5
 function footballPoints() {
