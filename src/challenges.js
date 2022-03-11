@@ -16,12 +16,15 @@ function splitSentence(frase) {
 }
 
 // Desafio 4
+// Referência de pesquisa:
+// https://pt.stackoverflow.com/questions/363976/uso-de-variavel-em-javascript
 function concatName(array1) {
   let firstElement = array1[0];
   let lastElement = array1[array1.length - 1];
   let frase = `${lastElement}, ${firstElement}`;
   return frase;
 }
+
 // Desafio 5
 function footballPoints() {
   // seu código aqui
