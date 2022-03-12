@@ -41,14 +41,14 @@ function highestCount(numbers) {
     if (bigestNumber <= numbers[index]) {
       bigestNumber = numbers[index];
     } else {
-      bigestNumber = bigestNumber;
+      bigestNumber += 0;
     }
   }
   for (let index2 = 0; index2 < numbers.length; index2 += 1) {
     if (bigestNumber === numbers[index2]) {
       howMany += 1;
     } else {
-      howMany = howMany;
+      howMany += 0;
     }
   }
   return howMany;
