@@ -89,12 +89,47 @@ function fizzBuzz(numbers1) {
 }
 
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(phrase) {
+  let code = '';
+  for (let index = 0; index < phrase.length; index += 1) {
+    if (phrase[index] === 'a') {
+      code = code + '1';
+    } else if (phrase[index] === 'e') {
+      code = code + '2';
+    } else if (phrase[index] === 'i') {
+      code = code + '3';
+    } else if (phrase[index] === 'o') {
+      code = code + '4';
+    } else if (phrase[index] === 'u') {
+      code = code + '5';
+    } else {
+      code = code + phrase[index];
+    }
+  }
+  return code;
 }
-function decode() {
-  // seu código aqui
+
+encode('O tempero dela tem pimenta');
+function decode(phrase) {
+  let code = '';
+  for (let index = 0; index < phrase.length; index += 1) {
+    if (phrase[index] === '1') {
+      code = code + 'a';
+    } else if (phrase[index] === '2') {
+      code = code + 'e';
+    } else if (phrase[index] === '3') {
+      code = code + 'i';
+    } else if (phrase[index] === '4') {
+      code = code + 'o';
+    } else if (phrase[index] === '5') {
+      code = code + 'u';
+    } else {
+      code = code + phrase[index];
+    }
+  }
+  return code;
 }
+
 
 // Desafio 10
 function techList() {
