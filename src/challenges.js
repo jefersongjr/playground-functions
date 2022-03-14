@@ -93,17 +93,17 @@ function encode(phrase) {
   let code = '';
   for (let index = 0; index < phrase.length; index += 1) {
     if (phrase[index] === 'a') {
-      code = code + '1';
+      code += '1';
     } else if (phrase[index] === 'e') {
-      code = code + '2';
+      code += '2';
     } else if (phrase[index] === 'i') {
-      code = code + '3';
+      code += '3';
     } else if (phrase[index] === 'o') {
-      code = code + '4';
+      code += '4';
     } else if (phrase[index] === 'u') {
-      code = code + '5';
+      code += '5';
     } else {
-      code = code + phrase[index];
+      code += phrase[index];
     }
   }
   return code;
@@ -114,26 +114,25 @@ function decode(phrase) {
   let code = '';
   for (let index = 0; index < phrase.length; index += 1) {
     if (phrase[index] === '1') {
-      code = code + 'a';
+      code += 'a';
     } else if (phrase[index] === '2') {
-      code = code + 'e';
+      code += 'e';
     } else if (phrase[index] === '3') {
-      code = code + 'i';
+      code += 'i';
     } else if (phrase[index] === '4') {
-      code = code + 'o';
+      code += 'o';
     } else if (phrase[index] === '5') {
-      code = code + 'u';
+      code += 'u';
     } else {
-      code = code + phrase[index];
+      code += phrase[index];
     }
   }
   return code;
 }
 
-
 // Desafio 10
 function techList() {
-  // seu código aqui
+
 }
 
 module.exports = {
