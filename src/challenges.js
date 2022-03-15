@@ -131,10 +131,19 @@ function decode(phrase) {
 }
 
 // Desafio 10
-function techList() {
-
+function techList(tech, name) {
+  let listTechAndName = [];
+  tech = tech.sort();
+  for (let index = 0; index < 5; index += 1) {
+    if (tech.length === 0) {
+      listTechAndName = 'Vazio!';
+    } else {
+      listTechAndName.push({ tech: tech[index], name: name});
+    }
+  }
+  return listTechAndName;
 }
-
+techList(['React', 'Jest', 'HTML', 'CSS', 'JavaScript'], 'Lucas')
 module.exports = {
   calcArea,
   catAndMouse,
