@@ -21,8 +21,20 @@ function triangleCheck(line1, line2, line3) {
 triangleCheck(10, 14, 8);
 
 // Desafio 13
-function hydrate() {
-  // seu código aqui
+function hydrate(string) {
+  let number = /\d+/g;
+  let numbers = string.match(number);
+  let cont = 0;
+  let answer = '';
+  for (let i = 0; i < numbers.length; i += 1) {
+    cont += parseInt(numbers[i]);
+    if (cont === 1) {
+      answer = `${cont} copo de água`;
+    } else {
+      answer = `${cont} copos de água`;
+    }
+  }
+  return answer;
 }
 
 module.exports = {
