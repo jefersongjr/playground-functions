@@ -21,6 +21,8 @@ function triangleCheck(line1, line2, line3) {
 triangleCheck(10, 14, 8);
 
 // Desafio 13
+// referencia de pesquisa : https://stackoverflow.com/questions/1623221/how-to-find-a-number-in-a-string-using-javascript
+//referencia de pesquisa : O parseInt o Atanes passou na aula5.3, e me ajudou com a duvida que eu estava!
 function hydrate(string) {
   let number = /\d+/g;
   let numbers = string.match(number);
