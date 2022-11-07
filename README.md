@@ -1,10 +1,21 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Playground Functions
+
+
+
+##  🚀📋 Sobre:
+
+**Playground Functions** Foi projeto desenvolvido por mim [Jeferson Gomes](https://www.linkedin.com/in/jefersongjr/),
+durante o curso de formação de desenvolvimento Full Stack da [Trybe](https://www.betrybe.com/), durante o Modulo de Fundamentos 
+de desenvolvimento Web.
+esse projeto consiste em resolver desafios de lógica de programação usando funções no JavaScript.
+
+veja o resultado clicando [Aqui](https://lessons-learned-pi.vercel.app/)
+
+
+## 🛠️ Desenvolvido com: 
+
+* JavaScript ES6+ 
+
+## :computer: Skills Desenvolvidas:
+
+* Resolver desafios de lógica de programação usando funções no JavaScript.
