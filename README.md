@@ -4,7 +4,7 @@
 
 ##  🚀📋 Sobre:
 
-**Playground Functions** Foi projeto desenvolvido por mim [Jeferson Gomes](https://www.linkedin.com/in/jefersongjr/),
+**Playground Functions** Foi um projeto desenvolvido por mim [Jeferson Gomes](https://www.linkedin.com/in/jefersongjr/),
 durante o curso de formação de desenvolvimento Full Stack da [Trybe](https://www.betrybe.com/), durante o Modulo de Fundamentos 
 de desenvolvimento Web.
 esse projeto consiste em resolver desafios de lógica de programação usando funções no JavaScript.
